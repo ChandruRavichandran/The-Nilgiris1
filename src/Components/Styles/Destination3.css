@@ -1,0 +1,199 @@
+.des31{
+    display: flex;
+    overflow-x: hidden;
+    width: 100%;
+}
+.des32{
+    width: 35%;
+    padding-left: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+
+}
+.des33{
+      font-size: 2vw;
+      font-family: "tt-commons-pro", sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      padding-bottom: 3%;
+
+}
+.des34{
+    padding-top: 3%;
+    font-size: 1.3vw;
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.des35{
+    padding-top: 2%;
+    font-size: 1.3vw;
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 400;
+    line-height: 1.3vw;
+    font-style: normal;
+}
+.des36{
+    padding-top: 3%;
+
+    font-size: 1.3vw;
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 600;
+    line-height: 1.3vw;
+    font-style: normal;
+}
+.des37{
+    padding-top: 2%;
+    font-size: 1.3vw;
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 400;
+    line-height: 1.3vw;
+    font-style: normal;
+
+}
+.des38{
+    padding-top: 2%;
+}
+.des38a{
+    width: 100%;
+}
+.des38a img{
+    width: 21.6vw;
+    height: 9.7vw;
+    border: 1px solid red;
+
+}
+.des39{
+
+    width: 50%;
+
+    padding-top: 3%;
+    padding-left: 5%;
+    display: flex;
+    
+    column-gap: 3%;
+}
+.des39a{
+    width: 100%;
+  
+}
+.des39a img{
+    border: 1px solid rgb(0, 255, 94);
+    width: 40.8vw;
+    height: 27.2vw;
+}
+.des311{
+     width: 94%;
+     margin-left: 3%;
+     display: flex;
+
+     justify-content: end;
+    margin-top: -7%;
+    margin-bottom: 7%;
+}
+.des311a{
+    text-align: end;
+    width: 100%;
+} 
+.des311a img{
+    width: 8.5vw;
+    height: 2.2vw;
+} 
+.des311aa{
+    display: none;
+}
+@media (max-width:601px) {
+    .des311aa{
+        display: block;
+        text-align: end;
+        margin-top: -10%;
+        width: 97%;
+    }
+    .des311aa img{
+        
+        width: 102px;
+        height: 27px;
+        /* width: 6.6vw;
+        height: 1.7vw; */
+    }
+    .des311{
+        display: none;
+    }
+    .des39aa{
+        display: none;
+    }
+  .des31{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .des32{
+    width: 94%;
+
+  }
+  .des33{
+    font-size: 24px;
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    padding-bottom: 3%;
+    padding-top: 5%;
+
+}
+.des34{
+  padding-top: 5%;
+  font-size: 20px;
+  font-family: "tt-commons-pro", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.des35{
+  padding-top: 2%;
+  font-size: 20px;
+  font-family: "tt-commons-pro", sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+  font-style: normal;
+}
+.des36{
+  padding-top: 10%;
+
+  font-size: 20px;
+  font-family: "tt-commons-pro", sans-serif;
+  font-weight: 600;
+  line-height:20px;
+  font-style: normal;
+}
+.des37{
+  padding-top: 2%;
+  font-size:20px;
+  font-family: "tt-commons-pro", sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+  font-style: normal;
+
+}
+.des38{
+    padding-top: 7%;
+}
+.des38a{
+    width: 100%;
+}
+.des38a img{
+    width: 100%;
+    height: 100%;
+}
+.des39{
+    padding-top: 3%;
+    padding-left: 3%;
+    width: 94%;
+    display: flex;
+    flex-direction: column;
+}
+.des39a{
+    width: 100%;
+}
+.des39a img{
+    width: 100%;
+    height: 100%;
+}
+}

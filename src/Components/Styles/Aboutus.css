@@ -1,0 +1,108 @@
+.abu1{
+    
+}
+.abu01{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+
+
+}
+
+.abu02{
+    width: 70%;
+
+}
+.abu03{
+    font-size: 3.1vw;
+    line-height: 3.1vw;
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    width: 60%;
+}
+.abu04{
+    font-size: 1.3vw;
+    line-height: 1.3vw;
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding-top: 5%;
+}
+.abu05{
+    width: 70%;
+    display: flex;
+    padding-top: 3%;
+}
+.abu06{
+    width: 100%;
+
+}
+.abu06 img{
+    width: 43vw;
+    height: 22.3vw;
+
+}
+.abu07{
+    font-size: 1.3vw;
+    line-height: 1.3vw;
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding-left: 3%;
+}
+.ab2{
+    display: none;
+}
+@media (max-width:601px) {
+    .ab1{
+        display: none;
+    }
+    .ab2{
+        display:block;
+    }
+    .abu02{
+        width:94%;
+        padding-top: 5%;
+    }
+    .abu03{
+        font-size: 36px;
+        line-height: 36px;
+        width: 90%;
+    }
+    .abu05{
+        width:94%;
+        display: flex;
+        flex-direction: column;
+       padding-top: 5%;
+    }
+    .abu04{
+        font-size: 16px;
+        line-height: 16px;
+        font-family: "tt-commons-pro", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        padding-top: 8%;
+    }
+    .abu06{
+        width: 100%;
+       padding-top: 5%;
+       padding-bottom: 5%;
+    }
+    .abu06 img{
+        width:100%;
+        height: 100%;
+    }
+    .abu07{
+        font-size: 16px;
+        line-height:16px;
+        width: 100%;
+        padding-left: 0;
+        padding-top: 3%;
+    }
+}

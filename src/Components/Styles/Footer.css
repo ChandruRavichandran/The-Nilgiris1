@@ -1,0 +1,166 @@
+.f1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2%;
+
+}
+a{
+    text-decoration: none;
+}
+.flap{
+    width: 94%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #1e1e1e;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    padding-top: 2%;
+
+}
+.f2{
+
+   display: flex;
+   justify-content: space-between;
+  padding-top: 3%;
+  padding-bottom: 3%;
+
+}
+.f3{
+    /* padding-top: 3%; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+.f31{
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.9vw;
+}
+.f32{
+    font-size: 1vw;
+    font-weight: 600;
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column;
+}
+.f32 a{
+   
+    padding-top: 10%;
+}
+.f321{
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 600;
+     font-style: normal;
+}
+.f4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.f41{
+    padding-top: 3%;
+}
+.f41 img{
+    width: 100%;
+}
+.f5{
+    padding-top: 2%;
+    text-align: center;
+}
+.f51{
+    font-size: 0.8vw;
+    font-weight: 300;
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 300;
+     font-style: normal;
+}
+.fmob{
+    display: none;
+}
+
+
+
+@media (max-width:601px) {
+    .flap{
+        display: none;
+    }
+    .fmob{
+
+        display:block;
+         width: 100%;
+         display: flex;
+         justify-content: center;
+         padding-top: 3%;
+         padding-bottom: 3%;
+    }
+    .f8{
+        width: 94%;
+        border: 1px solid #1e1e1e;
+        border-bottom: none;
+        border-left: none;
+        border-right: none;
+    }
+    .f6{
+
+        text-align: center;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .f61{
+        width: 100%;
+    }
+    .f61 img{
+        width: 152px;
+        height: 40px;
+    }
+    .f7{
+        width:50%;
+        text-align: center;
+        padding-top: 5%;
+        padding-bottom: 3%;
+    }
+    .f7a{
+
+        width: 100%;
+        display: flex;
+        
+    }
+    .f71{
+        font-size: 12.2px;
+        font-weight: 400;
+        font-family:"tt-commons-pro", sans-serif;
+        font-style: normal;
+    }
+    .f72{
+        padding-top: 10%;
+        display: flex;
+        flex-direction: column;
+    }
+    .f721{
+        font-weight: 600;
+        font-size: 13px;
+        padding-top: 3%;
+        font-family: "tt-commons-pro", sans-serif;
+        font-style: normal;
+    }
+    .f9{
+
+        width: 100%;
+        padding-top: 10%;
+        padding-bottom: 3%;
+    }
+    .f91{
+        font-size: 13px;
+        font-weight: 400;
+        text-align: center;
+        font-family: "tt-commons-pro", sans-serif;
+       font-style: normal;
+    }
+    
+}

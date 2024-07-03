@@ -1,0 +1,49 @@
+*{
+ margin: 0%;
+ padding: 0%; 
+ /* TT Commons Pro Light */
+
+/* font-family: "tt-commons-pro", sans-serif;
+font-weight: 200;
+font-style: normal; */
+
+/* TT Commons Pro Regular */
+/* 
+font-family: "tt-commons-pro", sans-serif;
+font-weight: 300;
+font-style: normal; */
+
+/* TT Commons Pro Medium */
+
+/* font-family: "tt-commons-pro", sans-serif;
+font-weight: 400;
+font-style: normal; */
+
+/* TT Commons Pro DemiBold */
+
+/* font-family: "tt-commons-pro", sans-serif;
+font-weight: 500;
+font-style: normal; */
+
+/* TT Commons Pro Bold */
+
+/* font-family: "tt-commons-pro", sans-serif;
+font-weight: 600;
+font-style: normal; */
+
+/* TT Commons Pro ExtraBold */
+/* font-family: "tt-commons-pro", sans-serif;
+font-weight: 700;
+font-style: normal; */
+
+/* TT Commons Pro Black */
+
+/* font-family: "tt-commons-pro", sans-serif;
+font-weight: 800;
+font-style: normal; */
+ 
+}
+a{
+    text-decoration: none;
+    
+}

@@ -1,0 +1,174 @@
+.exp01{
+    width: 100%;
+   
+}
+.exp02{
+
+
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+}
+.exp001{
+    font-size: 1.4vw;
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 94%;
+    margin-left: 3%;
+}
+.exp002{
+    padding-top: 2%;
+    font-size: 4.1vw;
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    width: 94%;
+    margin-left: 3%;
+}
+.exp03{
+    width: 100%;
+}
+.exp03 img{
+    width: 100%;
+}
+
+
+.exp04{
+    width:94%;
+    margin-left: 3%;
+   
+}
+.exp04a{
+    font-size: 3.1vw;
+
+    padding-top: 5%;
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.exp04b{
+  
+   width: 50%;
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.3vw;
+    padding-top: 2%;
+
+
+}
+.exp04c{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 1%;
+    row-gap: 3%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+.exp04d{
+  
+    padding-bottom: 5%;
+}
+.exp04d img{
+    width: 100%;
+}
+.exp04e{
+    font-size: 1.6vw;
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 2%;
+}
+.exp04f{
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2.3vw;
+    padding-top: 2%;
+
+}
+.exp04g{
+    font-size: 1.4vw;
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 2%;
+
+}
+.mobexp{
+    display: none;
+}
+@media (max-width:601px) {
+    .lapexp{
+        display: none;
+    }
+    .mobexp{
+        display: block;
+    }
+    .exp02{
+        padding-top: 7%;
+        padding-bottom: 7%;
+    }
+    .exp001{
+        font-size: 16px;
+      
+        width: 94%;
+        margin-left: 3%;
+    }
+    .exp002{
+        padding-top: 2%;
+        font-size: 48px;
+       
+        width: 94%;
+        margin-left: 3%;
+    }
+    .exp04{
+    }
+    .exp04a{
+        font-size: 24px;
+
+        padding-top: 5%;
+       
+    }
+    .exp04b{
+
+       width: 90%;
+     
+        font-size: 16px;
+        line-height: 16px;
+        padding-top: 2%;
+    
+    
+    }
+    .exp04d{
+  
+        padding-bottom: 10%;
+    }
+    .exp04c{
+       display: flex;
+       flex-direction: column;
+        column-gap: 1%;
+        row-gap: 3%;
+        padding-top: 5%;
+        padding-bottom: 10%;
+    }
+
+    .exp04e{
+        font-size: 14px;
+      
+        padding-top: 8%;
+    }
+    .exp04f{
+      
+        font-size: 24px;
+        padding-top: 2%;
+    
+    }
+    .exp04g{
+        font-size: 16px;
+      
+        padding-top: 2%;
+    
+    }
+}

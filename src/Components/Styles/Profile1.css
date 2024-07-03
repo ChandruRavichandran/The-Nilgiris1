@@ -1,0 +1,303 @@
+.pro02{
+    grid-area:col01;
+}
+.pro03{
+    grid-area:col02;
+}
+.pro04{
+    grid-area:col03;
+}
+
+.pro01{
+   
+    display: grid;
+    grid-template-areas: 
+    'col02 col02 col02 col01 col01 col01'
+    'col02 col02 col02 col01 col01 col01'
+    'col02 col02 col02 col03 col03 col03'
+    ;
+   gap: 20px;
+}
+
+
+.pro01{
+ 
+    width: 70%;
+   margin-left: 15%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.pro03{
+    width: 100%;
+}
+.pro03a{
+    width: 80%;
+}
+.pro031{
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: underline;
+    text-underline-position: under;
+    font-size: 1vw;
+}
+.pro032{
+    font-size: 2vw;
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top:5%;
+}
+.hrpro01{
+   margin-top: 3%;
+}
+.pro033{
+     font-size: 1.3vw;
+     font-family: "tt-commons-pro", sans-serif;
+     font-weight: 300;
+     font-style: normal;
+     padding-top: 5%;
+}
+.pro034{
+    margin-top: 2%;
+    display:grid;
+    /* justify-content: space-between; */
+    column-gap: 3%;
+    row-gap: 10%;
+    grid-template-columns: repeat(auto-fit, minmax(7vw,1fr));
+    width: 90%;
+     padding-bottom: 5%;
+}
+
+#pro034a{
+    background: #bcbaba;
+    height: 2.1vw;
+
+    display: flex;
+    border-radius: 1.9vw;
+    justify-content: center;
+    align-items: center;
+}
+#pro034{
+    font-size: 0.7vw;
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    /* width: 100%; */
+   
+ }
+ .pro035{
+    padding-top: 5%;
+
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 500;
+    font-size: 1.3vw;
+    font-style: normal;
+ }
+ .pro036{
+    padding-top: 3%;
+
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 300;
+    font-size: 1.2vw;
+    line-height: 1.2vw;
+    font-style: normal;
+ }
+
+ .pro02{
+    width: 100%;
+ }
+ .pro021{
+    width: 100%;
+ }
+ .pro021 img{
+    height: 18.4vw;
+    width: 35.3vw;
+ }
+ .pro04{
+    width: 100%;
+
+ }
+ .pro041{
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 400;
+    font-size: 1.3vw;
+
+ }
+ .pro042{
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 300;
+    font-size: 1.2vw;
+    padding-top: 2%;
+ }
+
+ 
+ .pro043{
+    width: 100%;
+    padding-top: 3%;
+ }
+ .pro043a{
+    width: 100%;
+ }
+ .pro04a img{
+    height: 9.7vw;
+    width: 23.6vw;
+    border: 1px solid black;
+ }
+ .mob002{
+    display: none;
+ }
+ @media (max-width:601px) {
+    .mob001{
+        display: none;
+     }
+     .mob002{
+        display:block;
+     }
+    .pro01{
+        display: flex;
+        flex-direction: column;
+        width: 94%;
+        margin-left: 3%;
+        padding-top: 5%;
+    }
+    
+    .pro02{
+        width: 100%;
+        text-align: center;
+     }
+     .pro03a{
+        width: 100%;
+    }
+ .pro021{
+    width: 100%;
+ }
+ .pro021 img{
+    width: 100%;
+    height: 100%;
+ }
+ .pro031{
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: underline;
+    text-underline-position: under;
+    font-size: 15px;
+}
+.pro032{
+    font-size: 24px;
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top:3%;
+    line-height: 24px;
+}
+.hrpro01{
+   margin-top: 2%;
+}
+.pro033{
+     font-size: 16px;
+     line-height: 17px;
+     font-family: "tt-commons-pro", sans-serif;
+     font-weight: 300;
+     font-style: normal;
+     padding-top: 3%;
+}
+.pro034{
+    margin-top: 3%;
+    display:grid;
+    /* justify-content: space-between; */
+    column-gap: 3%;
+    row-gap: 10%;
+    grid-template-columns: repeat(auto-fit, minmax(7vw,1fr));
+    width: 90%;
+     padding-bottom: 5%;
+}
+
+#pro034a{
+    background: #bcbaba;
+    height: 2.1vw;
+
+    display: flex;
+    border-radius: 1.9vw;
+    justify-content: center;
+    align-items: center;
+}
+#pro034{
+    font-size: 12px;
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    /* width: 100%; */
+   
+ }
+ .pro035{
+    padding-top: 0%;
+
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    font-style: normal;
+ }
+ .pro036{
+    padding-top: 2%;
+
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 16px;
+    font-style: normal;
+ }
+ 
+ .pro041{
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+
+ }
+ .pro042{
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    padding-top: 2%;
+ }
+
+ 
+ .pro043{
+     text-align: center;
+      padding-top: 3%;
+ }
+ .pro04a img{
+    border: 1px solid red;
+    width: 100%;
+    height: 100%;
+ }
+ .pro034{
+    margin-top: 2%;
+    display:grid;
+    grid-template-columns: auto auto;
+    /* justify-content: space-between; */
+    column-gap: 3%;
+    row-gap: 10%;
+    width: 100%;
+     padding-bottom: 5%;
+}
+
+#pro034a{
+    background: #bcbaba;
+    height: 33px;
+
+    display: flex;
+    border-radius: 32px;
+    justify-content: center;
+    align-items: center;
+}
+#pro034{
+    font-size: 12px;
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    /* width: 100%; */
+   
+ }
+}
