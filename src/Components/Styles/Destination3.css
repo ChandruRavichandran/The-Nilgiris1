@@ -2,12 +2,16 @@
     display: flex;
     overflow-x: hidden;
     width: 100%;
+    padding-bottom: 5%;
+
 }
 .des32{
-    width: 35%;
+    width:39%;
     padding-left: 3%;
     padding-top: 3%;
     padding-bottom: 3%;
+    /* border: 1px solid rgb(17, 255, 0); */
+
 
 }
 .des33{
@@ -19,7 +23,7 @@
 
 }
 .des34{
-    padding-top: 3%;
+    padding-top: 7%;
     font-size: 1.3vw;
     font-family: "tt-commons-pro", sans-serif;
     font-weight: 600;
@@ -34,7 +38,7 @@
     font-style: normal;
 }
 .des36{
-    padding-top: 3%;
+    padding-top: 7%;
 
     font-size: 1.3vw;
     font-family: "tt-commons-pro", sans-serif;
@@ -57,38 +61,119 @@
 .des38a{
     width: 100%;
 }
-.des38a img{
-    width: 21.6vw;
+.des38a iframe{
+    width: 21.68vw;
     height: 9.7vw;
-    border: 1px solid red;
 
 }
 .des39{
-
+   /* border: 2px solid rgb(0, 13, 255); */
     width: 50%;
 
     padding-top: 3%;
     padding-left: 5%;
-    display: flex;
-    
+    /* display: flex;
+    flex-direction: column; */
+    /* height: 100%; */
     column-gap: 3%;
+    
 }
 .des39a{
     width: 100%;
   
 }
 .des39a img{
-    border: 1px solid rgb(0, 255, 94);
+    /* border: 1px solid rgb(0, 255, 94); */
+    /* width: 40.8vw;
+    height: 27.2vw; */
+}
+.pop1{
+    width: 100%;
+}
+
+.pop2{
+    margin-top:5%;
+    margin-bottom: 5%;
+    /* overflow: hidden; */
+    width: 100%;
+    height: 100%;
+}
+
+.pop3{
+ 
+    width: 95%;
+    height: 100%;
+}
+.pop31{
+    height: 100%;
+    width: 100%;
+    
+
+}
+.pop31 img{
+    width: 100%;
+    height: 100%;
+ 
+}
+.yes39{
+    width: 60%;
+
+    padding-top: 3%;
+    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+    column-gap: 3%;
+}
+.yes39a{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-right: 5%;
+  
+}
+.yes39a img{
     width: 40.8vw;
     height: 27.2vw;
+}
+.yes38{
+    width: 40.8vw;
+    margin-right: 5%;
+
+    display: flex;
+    column-gap: 5%;
+    padding-top: 2%;
+
+}
+.yes38a{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5%;
+}
+.yes38c{
+    font-size: 1.3vw;
+    line-height: 1.5vw;
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    padding-bottom: 3%;
+}
+.yes38d{
+    font-size: 1.3vw;
+    line-height: 1.2vw;
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
 }
 .des311{
      width: 94%;
      margin-left: 3%;
      display: flex;
-
+   position: relative;
      justify-content: end;
-    margin-top: -7%;
+    margin-top: -13%;
     margin-bottom: 7%;
 }
 .des311a{
@@ -102,12 +187,22 @@
 .des311aa{
     display: none;
 }
+.res38{
+display: none;
+}
+
 @media (max-width:601px) {
+    .pop3{
+ 
+        width: 100%;
+        height: 100%;
+    }
     .des311aa{
         display: block;
         text-align: end;
-        margin-top: -10%;
+        /* margin-top: -15%; */
         width: 97%;
+        position: relative;
     }
     .des311aa img{
         
@@ -125,9 +220,12 @@
   .des31{
     display: flex;
     flex-direction: column-reverse;
+    padding-top: 10%;
+    padding-bottom: 10%;
   }
   .des32{
-    width: 94%;
+    padding-left: 3.5%;
+    width: 93%;
 
   }
   .des33{
@@ -136,7 +234,7 @@
     font-weight: 600;
     font-style: normal;
     padding-bottom: 3%;
-    padding-top: 5%;
+    padding-top: 10%;
 
 }
 .des34{
@@ -178,7 +276,7 @@
 .des38a{
     width: 100%;
 }
-.des38a img{
+.des38a iframe{
     width: 100%;
     height: 100%;
 }
@@ -196,4 +294,58 @@
     width: 100%;
     height: 100%;
 }
+.yes39{
+    padding-top: 3%;
+    padding-left: 5%;
+    width: 94%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+.yes39a{
+    width: 100%;
+}
+.yes39a img{
+    width: 100%;
+    height: 100%;
+}
+.yes38{
+    display: none;
+}
+.res38{
+    display:block;
+    }
+    .res38{
+        width: 40.8vw;
+        margin-right: 5%;
+    
+        display: flex;
+        flex-direction: column;
+        column-gap: 5%;
+        padding-top: 2%;
+    width: 100%;
+    }
+    .res38a{
+        display: flex;
+        flex-direction: column;
+        row-gap: 5%;
+        padding-top: 10%;
+    }
+    .res38c{
+        font-size: 20px;
+        line-height: 24px;
+        font-family: "tt-commons-pro", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        padding-bottom: 3%;
+    }
+    .res38d{
+        font-size: 20px;
+        line-height: 19px;
+        font-family: "tt-commons-pro", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    
+    }
 }

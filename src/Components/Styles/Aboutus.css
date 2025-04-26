@@ -106,3 +106,74 @@
         padding-top: 3%;
     }
 }
+
+
+.abu0011{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.abu0012{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.abu0013{
+   font-size: 3.12vw;
+   font-family: "tt-commons-pro", sans-serif;
+   font-weight: 500;
+   font-style: normal;
+   width: 60%;
+   text-align: center;
+
+}
+
+.abu0014{
+    padding-top: 5%;
+
+    font-size: 1.3vw;
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+ }
+ @media (max-width:601px) {
+    .abu0011{
+        display: flex;
+        justify-content: center;
+        padding-top: 5%;
+        padding-bottom: 10%;
+        width: 100%;
+    }
+    
+    .abu0012{
+        width: 90%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .abu0013{
+       font-size: 36px;
+       font-family: "tt-commons-pro", sans-serif;
+       font-weight: 500;
+       font-style: normal;
+       width: 100%;
+       text-align: center;
+      padding-top: 10%;
+    }
+    
+    .abu0014{
+        padding-top: 10%;
+        width: 100%;
+
+        font-size: 16px;
+        font-family: "tt-commons-pro", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+     }
+}

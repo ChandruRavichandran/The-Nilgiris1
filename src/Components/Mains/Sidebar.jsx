@@ -16,18 +16,18 @@ const Sidebar = ({ isopen, toggle }) => {
        <div className='bar2'>
        <a  className=' bar3' onClick={toggle} ><img src='/Img/close2.svg'></img></a>
 
-     <a href='/destination3' className='bar4'>Destination</a>
+     <a href='/tplaces' className='bar4'>Destination</a>
      <hr className='bar9'></hr>
-     <a href='/profile1' className='bar5' id='bar5'>Lifestyle</a>
+     <a href='/explore1' className='bar5' id='bar5'>Lifestyle</a>
      <hr className='bar9'></hr>
 
-     <a href='/destination2' className='bar6'  id='bar5'>Stories</a>
+     <a href='/destination3' className='bar6'  id='bar5'>Stories</a>
      <hr className='bar9'></hr>
 
      <a href='/aboutus' className='bar7'  id='bar5'>About</a>
      <hr className='bar9'></hr>
 
-     <a  href='/destination1'  className='bar8'  id='bar5'>More</a>
+     <a  href='/home'  className='bar8'  id='bar5'>More</a>
      <hr className='bar9'></hr>
 
 

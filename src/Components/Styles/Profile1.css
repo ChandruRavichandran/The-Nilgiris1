@@ -21,11 +21,10 @@
 
 
 .pro01{
- 
-    width: 70%;
-   margin-left: 15%;
+    width: 80%;
+   margin-left: 10%;
     margin-top: 3%;
-    margin-bottom: 3%;
+    margin-bottom: 10%;
 }
 .pro03{
     width: 100%;
@@ -63,16 +62,18 @@
     display:grid;
     /* justify-content: space-between; */
     column-gap: 3%;
-    row-gap: 10%;
+    row-gap: 15%;
     grid-template-columns: repeat(auto-fit, minmax(7vw,1fr));
     width: 90%;
      padding-bottom: 5%;
+     padding-top: 5%;
 }
 
 #pro034a{
     background: #bcbaba;
-    height: 2.1vw;
-
+    /* height: 2.1vw; */
+     padding-top: 11%;
+     padding-bottom: 9%;
     display: flex;
     border-radius: 1.9vw;
     justify-content: center;
@@ -102,6 +103,7 @@
     font-size: 1.2vw;
     line-height: 1.2vw;
     font-style: normal;
+    /* border: 1px solid red; */
  }
 
  .pro02{
@@ -135,14 +137,15 @@
  .pro043{
     width: 100%;
     padding-top: 3%;
+    /* border: 1px solid red; */
  }
  .pro043a{
     width: 100%;
  }
- .pro04a img{
+ .pro04a iframe{
     height: 9.7vw;
-    width: 23.6vw;
-    border: 1px solid black;
+    width: 21.68vw;
+    /* border: 1px solid black; */
  }
  .mob002{
     display: none;
@@ -166,6 +169,7 @@
         width: 100%;
         text-align: center;
      }
+   
      .pro03a{
         width: 100%;
     }
@@ -189,7 +193,7 @@
     font-family: "tt-commons-pro", sans-serif;
     font-weight: 400;
     font-style: normal;
-    padding-top:3%;
+    padding-top:5%;
     line-height: 24px;
 }
 .hrpro01{
@@ -204,7 +208,7 @@
      padding-top: 3%;
 }
 .pro034{
-    margin-top: 3%;
+   padding-top: 5%;
     display:grid;
     /* justify-content: space-between; */
     column-gap: 3%;
@@ -212,12 +216,21 @@
     grid-template-columns: repeat(auto-fit, minmax(7vw,1fr));
     width: 90%;
      padding-bottom: 5%;
+     
 }
-
+#pro034a{
+   background: #bcbaba;
+   /* height: 2.1vw; */
+   
+   display: flex;
+   border-radius: 1.9vw;
+   justify-content: center;
+   align-items: center;
+}
 #pro034a{
     background: #bcbaba;
-    height: 2.1vw;
-
+    padding-top: 5%;
+    padding-bottom: 3%;
     display: flex;
     border-radius: 1.9vw;
     justify-content: center;
@@ -229,10 +242,10 @@
     font-weight: 500;
     font-style: normal;
     /* width: 100%; */
-   
+     
  }
  .pro035{
-    padding-top: 0%;
+    padding-top: 10%;
 
     font-family: "tt-commons-pro", sans-serif;
     font-weight: 500;
@@ -267,8 +280,8 @@
      text-align: center;
       padding-top: 3%;
  }
- .pro04a img{
-    border: 1px solid red;
+ .pro04a iframe{
+   /* border: 1px solid red; */
     width: 100%;
     height: 100%;
  }

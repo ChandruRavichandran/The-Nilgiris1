@@ -5,12 +5,17 @@
     border-left: none;
     border-right: none; */
     border: 1px solid #d0cece;
-    border-top: none;
+    background-color: #d9d9d9;
+   border-top: none;
     border-left: none;
     border-right: none;
     display: flex;
     justify-content: center;
    
+
+}
+.navbarsecond{
+    /* background-color: #d9d9d9; */
 
 }
 .navlap{
@@ -52,6 +57,10 @@
      
         border-bottom: none;
        
+    }
+    .navlap{
+       
+        width: 93%;
     }
     .navbar2{
         display: none;

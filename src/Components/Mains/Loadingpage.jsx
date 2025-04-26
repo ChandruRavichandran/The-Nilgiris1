@@ -22,7 +22,7 @@ const Loadingpage = () => {
     },
     mobile: {
       breakpoint: { max: 500, min: 100 },
-      items:1.15
+      items:1.20
     }
     }
   return (
@@ -70,7 +70,8 @@ const Loadingpage = () => {
                          <div className='home3a'>
                             <div className='home3b'>Pellentesque nunc aliquam eu ornare sit</div>
                             <div className='home3c'>Enim proin pellentesque</div>
-                            <div className='home3d'>Tincidunt sit dui purus ac risus natoque. Nulla quam neque ut lacus. Et ipsum vel eu faucibus. Viverra neque rutrum interdum non nunc arcu. Iaculis fermentum ullamcorper in suscipit. In quam sed amet vitae. Nullam laoreet tempor euismod quis a. Lorem quam diam laoreet nunc scelerisque integer magna sit. Eget bibendum interdum metus etiam neque eget pellentesque turpis elementum. Senectus mus tortor velit accumsan mauris. Eget turpis dui congue rhoncus egestas ultricies non. At viverra tortor hac lobortis velit pulvinar vitae at enim. Nibh nisl auctor.</div>
+                            <div className='home3d'>Tincidunt sit dui purus ac risus natoque. Nulla quam neque ut lacus. Et ipsum vel eu faucibus. Viverra <br></br> neque rutrum interdum non nunc arcu. Iaculis fermentum ullamcorper in suscipit. In quam sed amet<br></br> vitae. Nullam laoreet tempor euismod quis a. Lorem quam diam laoreet nunc scelerisque integer <br></br>magna sit. Eget bibendum interdum metus etiam neque eget pellentesque turpis elementum.<br></br> Senectus mus tortor velit accumsan mauris. Eget turpis dui congue rhoncus egestas ultricies non. At<br></br> viverra tortor hac lobortis velit pulvinar vitae at enim. Nibh nisl auctor.</div>
+                            <div className='home3da'>Tincidunt sit dui purus ac risus natoque. Nulla quam neque ut lacus. Et ipsum vel eu faucibus. Viverra neque rutrum interdum non nunc arcu. Iaculis fermentum ullamcorper in suscipit. In quam sed amet vitae. Nullam laoreet tempor euismod quis a. Lorem quam diam laoreet nunc scelerisque integer magna sit. Eget bibendum interdum metus etiam neque eget pellentesque turpis elementum. Senectus mus tortor velit accumsan mauris. Eget turpis dui congue rhoncus egestas ultricies non. At viverra tortor hac lobortis velit pulvinar vitae at enim. Nibh nisl auctor<br></br><br></br>Tincidunt sit dui purus ac risus natoque. Nulla quam neque ut lacus. Et ipsum vel eu faucibus. Viverra neque rutrum interdum non nunc arcu..</div>
 
                          </div>
                 </div>
@@ -86,14 +87,17 @@ const Loadingpage = () => {
                     </div>
 
                       <div className='home41'>
-                      <Carousel responsive={responsive} className='kopkopkopkop'>
+                       {/* swipeable={false} // Disable swipe to prevent arrows from showing
+      draggable={false} // Disable dragging to prevent arrows from showing
+      showDots={false}   */}
+                      <Carousel responsive={responsive} className='kopkopkopkop'  >
 
 <div className='imagelopTT'>
 <div className='imagelopT'>
   <div className='slid1'>
       <div className='slid11'>EAT</div>
       <div className='slid12'>Volutpat magna vestibulum amet</div>
-      <a className='slid13' href='/destination1'><div className='slid14'>Discover Cafés</div></a>
+      <a className='slid13' href='/cafe'><div className='slid14'>Discover Cafés</div></a>
 
   </div>
   <img src='/Img/homesl1.svg' data-aos="fade-up" data-aos-duration="2000" alt='' />
@@ -105,12 +109,12 @@ const Loadingpage = () => {
 <div  className='imagelopTT'>
 <div className='imagelopT'>
 <div className='slid1'>
-      <div className='slid11'>EAT</div>
-      <div className='slid12'>Volutpat magna vestibulum amet</div>
-      <a className='slid13' href='/destination1'><div className='slid14'>Discover Cafés</div></a>
+      <div className='slid11'>STAY</div>
+      <div className='slid12'>Nec ut justo gravida vitae.</div>
+      <a className='slid13' href='/stays'><div className='slid14'>Discover Stays</div></a>
 
   </div>
-  <img className='' src='/Img/homesl1.svg'  data-aos="fade-up" data-aos-duration="2000" alt='' />
+  <img className='' src='/Img/homesl2.svg'  data-aos="fade-up" data-aos-duration="2000" alt='' />
 </div>
 
 </div>                 
@@ -118,9 +122,21 @@ const Loadingpage = () => {
 <div  className='imagelopTT'>
 <div className='imagelopT'>
 <div className='slid1'>
+      <div className='slid11'>ACTIVITIES</div>
+      <div className='slid12'>Elementum lacus lacus donec risus</div>
+      <a className='slid13' href='/restaurants'><div className='slid14'>Discover Activities</div></a>
+
+  </div>
+  <img src='/Img/homesl3.svg'  data-aos="fade-up" data-aos-duration="2000" alt='' />
+</div>
+</div>                 
+    
+<div  className='imagelopTT'>
+<div className='imagelopT'>
+<div className='slid1'>
       <div className='slid11'>EAT</div>
       <div className='slid12'>Volutpat magna vestibulum amet</div>
-      <a className='slid13' href='/destination1'><div className='slid14'>Discover Cafés</div></a>
+      <a className='slid13' href='/stays'><div className='slid14'>Discover Cafés</div></a>
 
   </div>
   <img src='/Img/homesl1.svg'  data-aos="fade-up" data-aos-duration="2000" alt='' />
@@ -132,34 +148,22 @@ const Loadingpage = () => {
 <div className='slid1'>
       <div className='slid11'>EAT</div>
       <div className='slid12'>Volutpat magna vestibulum amet</div>
-      <a className='slid13' href='/destination1'><div className='slid14'>Discover Cafés</div></a>
+      <a className='slid13' href='/stays'><div className='slid14'>Discover Cafés</div></a>
 
   </div>
-  <img src='/Img/homesl1.svg'  data-aos="fade-up" data-aos-duration="2000" alt='' />
+  <img src='/Img/homesl2.svg'  data-aos="fade-up" data-aos-duration="2000" alt='' />
 </div>
 </div>                 
     
 <div  className='imagelopTT'>
 <div className='imagelopT'>
 <div className='slid1'>
-      <div className='slid11'>EAT</div>
-      <div className='slid12'>Volutpat magna vestibulum amet</div>
-      <a className='slid13' href='/destination1'><div className='slid14'>Discover Cafés</div></a>
+      <div className='slid11'>SHOP</div>
+      <div className='slid12'>Integer elit in donec tempus morbi. Orci.</div>
+      <a className='slid13' href='/stays'><div className='slid14'>Discover Shop</div></a>
 
   </div>
-  <img src='/Img/homesl1.svg'  data-aos="fade-up" data-aos-duration="2000" alt='' />
-</div>
-</div>                 
-    
-<div  className='imagelopTT'>
-<div className='imagelopT'>
-<div className='slid1'>
-      <div className='slid11'>EAT</div>
-      <div className='slid12'>Volutpat magna vestibulum amet</div>
-      <a className='slid13' href='/destination1'><div className='slid14'>Discover Cafés</div></a>
-
-  </div>
-  <img src='/Img/homesl1.svg'  data-aos="fade-up" data-aos-duration="2000" alt='' />
+  <img src='/Img/homesl3.svg'  data-aos="fade-up" data-aos-duration="2000" alt='' />
 </div>
 </div>                 
                   
@@ -204,7 +208,25 @@ const Loadingpage = () => {
                         </div>
 
                     </div>    
+                    
                 </div>
+                
+
+          <div className='home8'>
+                  <div  className='home81'>
+                        <div className='home82'>
+                          <div className='home82a'>Tellus consectetur scelerisque </div>
+                           <div className='home82b'>Indigenous 5</div>
+                           <div className='home82c'>Porta non enim feugiat nulla eu sodales cursus quisque venenatis. Varius molestie tempus convallis ornare praesent consequat eros elementum mauris. Feugiat adipiscing sed velit feugiat. Nec aliquam tristique turpis elementum ac. Ipsum volutpat sit egestas lobortis est est justo.</div>
+                            <a className='home82d' href='/indi1'><div className='home82e'>Learn More</div></a>
+                        </div>
+                        <div className='home83'>
+                           <div className='home83a'><img src='Img/home08.svg'></img></div>
+                        </div>
+
+                  </div>
+          </div>
+
 
            </div>
 

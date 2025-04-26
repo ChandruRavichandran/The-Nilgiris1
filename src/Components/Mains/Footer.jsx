@@ -23,7 +23,7 @@ const Footer = () => {
                 <div className='f3'>
                   <div className='f31'>About</div>
                   <div className='f32'>
-                    <a className='f321'>TABOUT US</a>
+                    <a className='f321'>ABOUT US</a>
                     <a className='f321' >OUR PARTNERS</a>
                     <a className='f321' >FAQ</a>
 
@@ -92,7 +92,7 @@ const Footer = () => {
                 <div className='f7'>
                   <div className='f71'>About</div>
                   <div className='f72'>
-                    <a className='f721'>TABOUT US</a>
+                    <a className='f721'>ABOUT US</a>
                     <a className='f721' >OUR PARTNERS</a>
                     <a className='f721' >FAQ</a>
 
@@ -131,7 +131,7 @@ const Footer = () => {
 
 
              <div className='f9'>
-             <div className='f91'>©2024 Diam quis sed mattis cursus aliquet at. All rights Reserved </div>
+             <div className='f91'>©2024 Diam quis sed mattis cursus aliquet at. All<br></br> rights Reserved </div>
 
              </div>
 

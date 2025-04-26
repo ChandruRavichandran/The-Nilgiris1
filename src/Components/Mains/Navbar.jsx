@@ -16,14 +16,14 @@ const Navbar = () => {
 
        <div className='navlap'>
             
-            <a href='/' className='navbar1'><img src='/Img/Nillogo.svg'></img></a>
+            <a href='/indi1' className='navbar1'><img src='/Img/Nillogo.svg'></img></a>
 
             <div className='navbar2'>
-              <a href='/destination3' className='n4'>Destination</a>
-              <a href='/profile1' className='n4'>Lifestyle</a>
-              <a href='/destination2' className='n4'>Stories</a>
+            <a href='/tplaces' className='n4'>Destination</a>
+              <a href='/explore1' className='n4'>Lifestyle</a>
+              <a href='/destination3' className='n4'>Stories</a>
               <a href='/aboutus' className='n4'>About</a>
-              <a href='/destination1' className='n4'>More :</a>
+              <a href='/home' className='n4'>More :</a>
             </div>
 
             <div className='navbar3'>

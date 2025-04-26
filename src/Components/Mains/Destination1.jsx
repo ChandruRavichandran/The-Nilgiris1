@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from './Navbar'
+import Navbar2 from './Navbar2'
 import Footer from './Footer'
 import '../Styles/Destination1.css'
 
@@ -7,7 +7,7 @@ const Destination1 = () => {
   return (
     <>
     <div className='abu1'>
-       <Navbar/>
+       <Navbar2/>
            <div className='des11'>
 
                <div className='des12'>

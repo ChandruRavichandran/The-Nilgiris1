@@ -1,0 +1,330 @@
+.pls1{
+    /* border: 1px solid red; */
+    width: 94%;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+.pls2{
+    border-radius: 45px;
+    color: #1e1e1e;
+    /* background-color: #D9D9D9; */
+    font-size: 1vw;
+    line-height: 1vw;
+    padding:0.5vw 1.5vw ;
+    letter-spacing: 1%;
+    font-weight: 500;
+    font-family: "polymath-display", sans-serif;
+    border: 2px solid #1e1e1e;
+
+}
+.pls2a{
+    border-radius: 45px;
+    color: #FFFFFF;
+    background-color: #1e1e1e;
+    font-size: 1vw;
+    line-height: 1vw;
+    padding:0.5vw 1.5vw ;
+    letter-spacing: 1%;
+    font-weight: 500;
+    font-family: "polymath-display", sans-serif;
+    border: 2px solid #1e1e1e;
+
+}
+.pls21{
+    margin-left: 1vw;
+}
+.tpls1{
+    /* border: 1px solid red; */
+    width: 94%;
+    margin-left: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.tpls2{
+    display: grid;
+    grid-template-columns: auto auto  auto;
+    column-gap: 5%;
+}
+
+.mtpls1{
+    display: none;
+}
+.plshr{
+    margin: 3% 3%;
+}
+
+.fc1{
+    /* border: 6px solid rgb(32, 3, 32); */
+}
+.tpls23{
+     margin-bottom: 10%;
+     width: 28vw;
+
+     /* border: 1px solid red; */
+}
+.tpls24 img{
+    width: 28vw;
+    height: 19vw;
+}
+.tpls25{
+    font-size: 1.3vw;
+    line-height: 1.3vw;
+    letter-spacing: 0%;
+    font-weight: 400;
+    font-family: "polymath-display", sans-serif;
+    margin-top: 5%;
+}
+.tpls26{
+    font-size: 1vw;
+    line-height: 1vw;
+    letter-spacing: 0%;
+    font-weight: 300;
+    font-family: "polymath-display", sans-serif;
+    margin-top: 3%;
+
+}
+.mpls1{
+    display: none;
+}
+.mbtn1{
+    display: none;
+}
+#loadmorebtn1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#loadmorebtn{
+    width: 183px;
+    height: 47px;
+    color:#FFFFFF;
+    background: #1E1E1E;
+    font-size: 1vw;
+    line-height: 1vw;
+    letter-spacing: 0%;
+    font-weight: 500;
+    font-family: "polymath-display", sans-serif;
+    border-radius: 45px;
+    text-align: center;
+}
+#loadmorebtn2{
+    display: none;
+}
+.tpls5{
+    width: 94%;
+    margin-left: 3%;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+.tpls51{
+    font-size: 3.02vw;
+    line-height: 3.02vw;
+    letter-spacing: 1%;
+    font-weight: 600;
+    font-family: "polymath-display", sans-serif;
+    margin-bottom: 1%;
+}
+.tpls52{
+    font-size: 1.3vw;
+    line-height: 1.5vw;
+    letter-spacing: 1%;
+    font-weight: 400;
+    font-family: "polymath-display", sans-serif;
+}
+.tpls53{
+    display: none;
+}
+.btnhidden{
+   display: none;
+}
+@media (max-width:601px) {
+    .tpls5{
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .tpls51{
+        font-size: 24px;
+        line-height: 24px;
+        letter-spacing: 1%;
+        font-weight: 600;
+        font-family: "polymath-display", sans-serif;
+        margin-bottom: 3%;
+    }
+    .tpls53{
+        display: block;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 1%;
+        font-weight: 400;
+        font-family: "polymath-display", sans-serif;
+    }
+    .tpls52{
+        display: none;
+    }
+    .plshr{
+        margin-top: 3%;
+        margin-bottom: 3%;
+        margin-left: 0%;
+    }
+    
+    .pls1{
+        display: none;
+    }
+    .mpls1{
+        display: block;
+    }
+    .mpls3{
+        margin-left: 1%;
+    }
+    .mpls1 a{
+        padding: 2% 5%;
+    }
+    .mpls4{
+        margin-top: 7%;
+    }
+    .mpls5{
+        margin-top: 7%;
+    }
+    .mpls6{
+        margin-top: 7%;
+    }
+    #pls1{
+        width: 72px;
+      
+    }
+    #pls2{
+        width: 88px;
+        
+
+    }
+    #pls3{
+        width: 112px;
+    }
+    #pls4{
+        width: 106px;
+    }
+    #pls5{
+        width: 103px;
+    }
+
+    #pls6{
+        width: 123px;
+    }
+    #pls7{
+        width: 126px;
+    }
+    #pls8{
+        width: 128px;
+    }
+    #pls9{
+        width: 140px;
+    }
+
+ 
+    .mpls1{
+
+        width: 94%;
+        margin-left: 3%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        /*display: grid;
+       
+        grid:
+        'total ooty ooty coonoor coonoor coonoor'
+        'gudalur kotagiri kotagiri kotagiri kotagiri kotagiri'
+        ' avalanche  mudumalai mudumalai mudumalai mudumalai  mudumalai'
+        ' masinagudi  hiddengems hiddengems hiddengems hiddengems hiddengems'
+        ;
+         */
+     }
+    .mpls2{
+        border-radius: 45px;
+        color: #1e1e1e;
+        font-size: 14px;
+        line-height: 14px;
+        padding:0;
+        letter-spacing: 1%;
+        font-weight: 500;
+        font-family: "polymath-display", sans-serif;
+        border: 2px solid #1e1e1e;
+        text-align: center;
+    }
+    .mpls2a{
+        border-radius: 45px;
+        color: #FFFFFF;
+        background-color: #1e1e1e;
+        font-size: 14px;
+        line-height: 14px;
+        padding:0;
+        letter-spacing: 1%;
+        font-weight: 500;
+        font-family: "polymath-display", sans-serif;
+        border: 2px solid #1e1e1e;
+        text-align: center;
+
+    }
+    .mpls21{
+        margin-left: 1vw;
+    }
+.tpls1{
+    display: none;
+}
+.mtpls1{
+    display: block;
+    display: grid;
+    grid-template-columns: auto;
+    width: 94%;
+    margin-left: 3%;
+}
+.tpls23{
+    width: 100%;
+}
+.tpls24{
+    width: 100%;
+}
+.tpls24 img{
+    width:100%;
+    height: 100%;
+}
+.tpls25{
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    font-weight: 400;
+    font-family: "polymath-display", sans-serif;
+    margin-top: 3%;
+}
+.tpls26{
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    font-weight: 300;
+    font-family: "polymath-display", sans-serif;
+    margin-top: 3%;
+
+}
+.mbtn1{
+    display: block;
+}
+#loadmorebtn2{
+    display: block;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#loadmorebtn{
+    width: 183px;
+    height: 47px;
+    color:#FFFFFF;
+    background: #1E1E1E;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    font-weight: 500;
+    font-family: "polymath-display", sans-serif;
+    border-radius: 45px;
+    text-align: center;
+}
+}

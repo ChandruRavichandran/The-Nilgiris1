@@ -1,0 +1,394 @@
+
+.indi1{
+    overflow-x: hidden;
+}
+.navbarthree{
+    width: 100%;
+    /* height: 100vw; */
+    border: 2px solid #d9d9d9;
+    /* border-top: none;
+    border-left: none;
+    border-right: none; */
+    /* border: 2px solid red; */
+    /* background-color: #d9d9d9; */
+   border-top: none;
+    border-left: none;
+    border-right: none;
+    display: flex;
+    justify-content: center;
+   
+
+}
+.indi1mmini{
+    width: 94%;
+    margin-left: 3%;
+    margin-top: 3%;
+
+}
+.indi1mmini2{
+    display: none;
+}
+.indi1mmini1 img{
+    width: 100%;
+    height: 100%;
+
+}
+.indi2{
+    width: 100%;
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.indi21{
+    font-size: 3.1vw;
+    line-height: 3.1vw;
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    width: 50%;
+}
+.indi22{
+    font-size: 1.3vw;
+    line-height:1.3vw;
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    width: 100%;
+
+}
+.indi3{
+    width:100%;
+    height: 100%;
+}
+
+.indi3 img{
+    width: 100%;
+    height: 100%;
+}
+.indi5{
+    width: 94%;
+    margin-left: 3%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    display: none;
+}
+.indi51{
+    width: 100%;
+}
+.indi51a{
+    width: 100%;
+    font-size: 3.1vw;
+    line-height:3.2vw;
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    padding-bottom: 2%;
+}
+.indi51b{
+    width: 40%;
+    font-size: 1.3vw;
+    line-height:1.3vw;
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 2%;
+
+}
+.indi52{
+    display: flex;
+    align-items: center;
+    padding-top: 5%;
+}
+.indi54{
+    width: 100%;
+    /* border: 1px solid red; */
+}
+.indi54 img{
+
+    width: 80%;
+
+}
+.indi54a{
+    padding-bottom: 7%;
+    width: 90%;
+
+}
+.indi54b{
+    font-size: 1.3vw;
+    line-height:1.4vw;
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 400;
+    padding-bottom: 3%;
+}
+.indi54c{
+    font-size: 1.2vw;
+    line-height:1.2vw;
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 300;
+}
+.indi4{
+    width: 100%;
+    /* margin-leflt: 3%; */
+     padding-top: 5%;
+    padding-bottom: 5%;
+}
+.indi4a{
+    width: 100%;
+    font-size: 1.3vw;
+    line-height:1.4vw;
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+.indi4b{
+    width: 100%;
+    font-size: 3.1vw;
+    line-height:3.1vw;
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 500;
+    text-align: center;
+
+}
+.indi41{
+    margin-top:2%;
+    margin-bottom: 2%;
+    /* overflow: hidden; */
+    width: 97%;
+    margin-left: 3%;
+    height: 100%;
+}
+.kopkopkopkop41{
+    width: 100%;
+   height: 100%;
+
+
+
+}
+
+.imagelopTT41{
+   
+    /* width: 100%;
+    height: 100%; */
+
+}
+.imagelopT41{
+    height: 100%;
+    width:95%;
+
+}
+.imagelopT41 img{
+    height: 100%;
+    width: 100%;
+    /* width: 27.9vw;
+    height: 31.3vw; */
+ 
+}
+.indi4e{
+    width: 95%;
+    /* border: 1px solid red; */
+}
+.indi4c{
+    font-size: 1.3vw;
+    line-height:1.3vw;
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 400;
+    padding-top: 3%;
+}
+.indi4d{
+    font-size: 1.1vw;
+    line-height:1.1vw;
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 300;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+.indi43{
+   display: flex;
+   justify-content: center;
+   margin-top: 2%;
+  margin-bottom: 5%;
+}
+.indi42a{
+    width: 10.5vw;
+    height: 3vw;
+    border: 3px solid #1e1e1e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2.9vw;
+}
+.indi42b{
+    font-size: 1.1vw;
+    line-height:1.1vw;
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 500;
+}
+@media (max-width:601px) {
+    .indi1mmini{
+        width: 100%;
+        margin-top: 3%;
+        margin-left: 0;
+    }
+    .indi1mmini2{
+        display: block;
+        width: 94%;
+        margin-left: 3%;
+        margin-top: 3%;
+    }
+    .indi1mmini1{
+        display: none;
+    }
+    .indi1mmini2 img{
+        width: 100%;
+        height: 100%;
+    
+    }
+    .navbarthree{
+     
+        border-bottom: none;
+       
+    }
+
+ .indi2{
+    width: 94%;
+ margin-left: 3%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.indi21{
+    font-size: 24px;
+    line-height: 24px;
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    width: 100%;
+}
+.indi22{
+    font-size: 16px;
+    line-height:16px;
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+.indi4a{
+    width: 100%;
+    font-size: 16px;
+    line-height:16px;
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 5%;
+
+}
+.indi4b{
+    width: 100%;
+    font-size:24px;
+    line-height:24px;
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 5%;
+
+}
+.imagelopT41 img{
+    height: 100%;
+    width: 100%;
+ 
+}
+.indi4c{
+    font-size: 20px;
+    line-height:20px;
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 400;
+    padding-top: 3%;
+}
+.indi4d{
+    font-size: 16px;
+    line-height:16px;
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 300;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+.indi43{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+   margin-bottom: 5%;
+ }
+.indi42a{
+    width: 145px;
+    height: 40px;
+    border: 3px solid #1e1e1e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 45px;
+}
+.indi42b{
+    font-size: 16px;
+    line-height:16px;
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 500;
+}
+
+.indi51a{
+    width: 100%;
+    font-size: 24px;
+    line-height:24px;
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    padding-bottom: 2%;
+}
+.indi51b{
+    width: 90%;
+    font-size: 16px;
+    line-height:16px;
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 2%;
+
+}
+.indi52{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+}
+.indi54{
+    width: 100%;
+    padding-bottom: 5%;
+    /* border: 1px solid red; */
+}
+.indi54 img{
+
+    width: 100%;
+
+}
+.indi54a{
+    padding-bottom: 7%;
+    width: 100%;
+
+}
+.indi54b{
+    font-size: 16px;
+    line-height:16px;
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 500;
+    padding-bottom: 3%;
+}
+.indi54c{
+    font-size: 16px;
+    line-height:16px;
+    font-family: "tt-commons-pro", sans-serif;
+    font-weight: 300;
+}
+}

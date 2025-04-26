@@ -1,20 +1,45 @@
 import React from 'react'
 import '../Styles/Destination3.css'
-import Navbar from './Navbar'
+import Navbar2 from './Navbar2'
 import Footer from './Footer'
+import '../Styles/Loadingpage.css'
+
+import "react-multi-carousel/lib/styles.css";
+import Carousel from "react-multi-carousel";
+
 
 const Destination3 = () => {
+  const responsive = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 1700 },
+      items: 1.25
+    },
+    desktop: {
+      breakpoint: { max: 1700, min: 1000 },
+      items: 1.25
+    },
+    tablet: {
+      breakpoint: { max: 1000, min: 500 },
+      items: 1
+       },
+    mobile: {
+      breakpoint: { max: 500, min: 100 },
+      items:1
+    }
+    }
   return (
    <>
      <div   className='abu1'>
-        <Navbar/>
+        <Navbar2/>
         <div className='des31'>
 
             <div className='des32'>
-            <div className='des33'>Tempor Amet Volutpat.</div>
+            <div className='des33'>Ooty Lake</div>
              <hr></hr>
              <div className='des34'>Overview</div>
-             <div className='des35'>Lectus ac egestas est risus sem dolor tortor neque. Risus tellus quisque elementum nibh fermentum pharetra elit arcu morbi. Sed iaculis sed ultrices in non lacus mi id morbi. Elit nunc tortor lorem massa. Adipiscing sed neque nullam massa nullam faucibus amet.</div>
+             <div className='des35'>A calm oasis in the heart of Ooty, this man-made lake is perfect for boating and lazy afternoons. Surrounded by eucalyptus trees and misty hills, it’s a favourite spot for families and couples looking to soak in Ooty’s tranquil beauty.
+             </div>
              <div className='des36'>Location</div>
              <div className='des37'>59321 Mante Points, Kenner 20538</div>
              <div className='des38'> <div className='des38a'><img src='Img/des31.svg'></img></div></div>
@@ -22,9 +47,40 @@ const Destination3 = () => {
             </div>
 
             <div className='des39'>
-                <div className='des39a'><img src='Img/des32.svg'></img></div>
-                <div className='des39a des39aa'><img src='Img/des32.svg'></img></div>
-                <div className='des311aa'><img src='Img/gal1.svg'></img></div>
+
+               <div className='pop1'>
+                  
+                                       <div className='pop2'>
+                                        <Carousel responsive={responsive} className='kopkopkopkop'>
+                  
+                  <div className='pop3'>
+                  <div className='pop31'>
+                  
+                    <img src='Img/des32a.svg' data-aos="fade-up" data-aos-duration="2000" alt='' />
+                  </div>
+            
+                  
+                  </div>
+
+                  <div className='pop3'>
+                  <div className='pop31'>
+                  
+                    <img src='Img/des32a.svg' data-aos="fade-up" data-aos-duration="2000" alt='' />
+                  </div>
+            
+                  
+                  </div>
+
+                  </Carousel>
+                  
+                  
+                  </div>   
+
+                  <div className='des311a'>
+               <div className='des311aa'><img src='Img/gal1.svg'></img></div>
+             </div>
+               </div>
+           
 
             </div>
                
@@ -35,6 +91,7 @@ const Destination3 = () => {
              <div className='des311'>
                <div className='des311a'><img src='Img/gal1.svg'></img></div>
              </div>
+
 
         <Footer/>
      </div>

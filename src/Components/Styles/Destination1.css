@@ -9,23 +9,68 @@
   margin-top: 2%;
   margin-bottom: 2%;
 }
-.des12aa{
-  border: 1px solid rgb(21, 6, 6);
-  padding-left: 2%;
-  padding-right: 2%;
-  padding-top: 0.5%;
-  padding-bottom: 0.4%;
-  border-radius: 2.9vw;
 
-  background: #1E1E1E;
-
-}
 .des16{
   width:94%;
   margin-left: 3%;
 }
+
+.des12a{
+  border: 2px solid #000000; 
+    display: flex;
+  justify-content: center;
+  align-items: center;     
+  width: 10vw;
+  height: 2.5vw;
+  padding-top: 0%;
+  border-radius: 2.9vw;
+  /* border: 1px solid #FFFFFF;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 0.6%;
+  padding-bottom: 0.4%;
+  border-radius: 2.9vw;
+  border: 1px solid rgb(21, 6, 6); */
+
+
+}
+.des12b{
+  /* font-family: "tt-commons-pro", sans-serif;
+    font-weight: 500;
+    line-height: 1.1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2.9vw;
+   font-size: 1.2vw; */
+   font-size: 1.2vw;
+   line-height: 1.2vw;
+   font-family: "tt-commons-pro", sans-serif;
+   font-weight: 500;
+   font-style: normal;
+   color: #000000;
+}
+.des12aa{
+  /* border: 1px solid rgb(21, 6, 6);
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 0.6%;
+  padding-bottom: 0.4%;
+  border-radius: 2.9vw;
+
+  background: #1E1E1E; */
+  border: 2px solid #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;     
+  width: 10vw;
+  height: 2.5vw;
+  padding-top: 0%;
+  border-radius: 2.9vw;
+  background: #1E1E1E
+}
 .des12bb{
-  font-family: "tt-commons-pro", sans-serif;
+  /* font-family: "tt-commons-pro", sans-serif;
     font-weight: 500;
     line-height: 1.1vw;
     color: #FFFFFF;
@@ -33,30 +78,15 @@
     justify-content: center;
     align-items: center;
     border-radius: 2.9vw;
+   font-size: 1.2vw; */
+   color: #ffffff;
    font-size: 1.2vw;
-}
-.des12a{
-  border: 1px solid #FFFFFF;
-  padding-left: 2%;
-  padding-right: 2%;
-  padding-top: 0.5%;
-  padding-bottom: 0.4%;
-  border-radius: 2.9vw;
-  border: 1px solid rgb(21, 6, 6);
-
-
+   line-height: 1.2vw;
+   font-family: "tt-commons-pro", sans-serif;
+   font-weight: 500;
+   font-style: normal;
 }
 
-.des12b{
-  font-family: "tt-commons-pro", sans-serif;
-    font-weight: 500;
-    line-height: 1.1vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 2.9vw;
-   font-size: 1.2vw;
-}
 .des13{
   width:94%;
   margin-left: 3%;
@@ -95,40 +125,19 @@
 @media (max-width:601px) {
   .des12{
     display: flex;
-    width:94%;
+    width:93%;
     margin-left: 0%;
     column-gap: 2%;
     margin-top: 7%;
-    padding-left: 3%;
+    padding-left: 3.5%;
     margin-bottom: 5%;
-  }
-  .des12aa{
-    border: 1px solid rgb(21, 6, 6);
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 3%;
-    padding-bottom: 2.5%;
-    border-radius: 40px;
-  
-    background: #1E1E1E;
-  
-  }
-  .des12bb{
-    font-family: "tt-commons-pro", sans-serif;
-      font-weight: 500;
-      color: #FFFFFF;
-      display: inline-grid;
-      grid-template-columns: auto auto auto  auto;      justify-content: center;
-      align-items: center;
-      border-radius: 40px;
-     font-size: 15px;
   }
   .des12a{
     border: 1px solid #FFFFFF;
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 3%;
-    padding-bottom: 2.5%;
+    padding-bottom: 2.8%;
     border-radius: 40px;
     border: 1px solid rgb(21, 6, 6);
   
@@ -146,6 +155,28 @@
       border-radius: 40px;
       font-size: 15px
   }
+  .des12aa{
+    border: 1px solid rgb(21, 6, 6);
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+    padding-bottom: 2.8%;
+    border-radius: 40px;
+  
+    background: #1E1E1E;
+  
+  }
+  .des12bb{
+    font-family: "tt-commons-pro", sans-serif;
+      font-weight: 500;
+      color: #FFFFFF;
+      display: inline-grid;
+      grid-template-columns: auto auto auto  auto;      justify-content: center;
+      align-items: center;
+      border-radius: 40px;
+     font-size: 15px;
+  }
+
   .des16{
     width:100%;
     margin-left: 0%;
